@@ -1,0 +1,196 @@
+.food-app-banner{
+  height: 280px;
+}
+.all-products-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .all-products-container img{
+     width: 100%;
+  }
+  .products-container{
+    width: 85%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  
+  .products-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+     
+    }
+  @media screen and (min-width:768px){
+    .products-list{
+      flex-direction:row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+    
+  }
+  
+  .products-heading {
+   
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    .products-heading {
+      font-size: 32px;
+    }
+    .products-container{
+      width: 90%;
+      padding-top: 35px;
+      padding-bottom: 40px;
+    }
+  }
+  
+  
+  .no-products-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    .no-products-view {
+     
+      width: 70%;
+      padding-bottom: 0;
+     
+    }
+  }
+  
+  .no-products-img {
+    width: 250px;
+    height: 180px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .no-products-img {
+      width: 459px;
+      height: 315px;
+    }
+  }
+  
+  .no-products-heading {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .no-products-heading {
+      margin-top: 32px;
+      font-size: 24px;
+    }
+  }
+  
+  .no-products-description {
+    text-align: center;
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 14px;
+    width: 90%;
+    max-width: 288px;
+    line-height: 1.3;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .no-products-description {
+      margin-top: 12px;
+      font-size: 18px;
+      width: 60%;
+      max-width: 466px;
+    }
+  }
+  
+  .products-error-view-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    padding-bottom: 64px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .products-error-view-container {
+      margin-top: 0px;
+      margin-left: 30px;
+      width: 70%;
+      padding-bottom: 0;
+    }
+  }
+  
+  .products-failure-img {
+    width: 250px;
+    height: 200px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .products-failure-img {
+      width: 400px;
+      height: 350px;
+    }
+  }
+  
+  .product-failure-heading-text {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .product-failure-heading-text {
+      font-size: 24px;
+    }
+  }
+  
+  .products-failure-description {
+    text-align: center;
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 14px;
+    width: 90%;
+    max-width: 288px;
+    line-height: 1.3;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .products-failure-description {
+      font-size: 18px;
+      width: 60%;
+      max-width: 466px;
+    }
+  }
+  
+  .products-loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+  }
+  

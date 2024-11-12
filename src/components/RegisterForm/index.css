@@ -1,0 +1,157 @@
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1110px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  
+  
+  @media screen and (min-width: 768px) {
+    .login-form-container {
+      flex-direction: row;
+      justify-content: space-around;
+      padding-top: 15px;
+      padding-bottom: 20px;
+      margin-top: 30px;
+      margin-bottom: 35px;
+    } 
+    
+  }
+  
+  
+  .login-form-img {
+    width: 40%;
+    margin-bottom: 30px; 
+    height: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .login-form-img {
+      height: 100%;
+      margin-bottom:0px;
+    }
+  }
+  
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 85%;
+    max-width: 450px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+   
+  }
+  
+  .form-container h1{
+    margin-top: 0px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #64748b;
+  }
+  
+  .username-input-field {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+   
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+  
+  .password-input-field {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+   
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+  
+  .login-button {
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    height: 45px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #FF5E0E ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .account-note-text{
+    font-family: 'Arial', sans-serif; /* Font family for placeholder */
+    color: #64748b;
+    margin-top: 15px;
+  }
+  
+  .error-message {
+    align-self: start;
+    margin-top: 16px;
+    font-size: 16px;
+  
+    margin-bottom: 13px;
+    font-family: 'Arial', sans-serif;
+    line-height: 16px;
+    color: #ff0b37;
+  }
+  .highlight-text{
+    
+   color: #FF5E0E;
+   text-decoration: none;
+   font-weight: 600;
+  }
+  @media screen and (min-width: 992px) {
+    .form-container {
+      width: 450px;
+      flex-shrink: 0;
+     
+      padding: 64px 48px 64px 48px;
+    }
+    .login-button {
+      width: 100%;
+    }
+  }
+  .checkbox-container{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: center;
+  
+    margin-top: 12px;
+  }
+  .password-checkbox{
+    margin-top: 5px;
+    height: 23px;
+    margin-right: 5px;
+  }
